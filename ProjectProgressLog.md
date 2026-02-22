@@ -6,7 +6,7 @@ This document contains **daily progress updates** for the project. Each entry de
 
 ## [Day 1] Environment Setup
 
-**Date:** YYYY-MM-DD
+**Date:** 2026-2-22
 
 **Tasks Completed:**
 
@@ -15,6 +15,12 @@ This document contains **daily progress updates** for the project. Each entry de
 - Created the project folder structure and initialized Git repository.
 - Configured `.gitignore` to exclude large raw data folders (`image` and `ecgen-radiology`).
 - Prepared main Jupyter Notebook (`main.ipynb`) and environment setup notebook (`01_environment_setup.ipynb`) for the pipeline.
+- **Loaded raw data:**
+  - Read all X-ray images from `data/raw/image/`.
+  - Parsed all XML radiology reports from `data/raw/ecgen-radiology/`.
+  - Mapped each report to its corresponding image(s) according to `<parentImage>` tags in the XML files.
+- Implemented preprocessing functions for images (`preprocess_image`) and report text (`preprocess_report`) and verified they run without errors.
+
 
 **Observations:**
 

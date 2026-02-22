@@ -5,6 +5,7 @@ This repository provides a **multimodal data augmentation pipeline** for **chest
 ---
 
 ## Project Structure
+```
 multimodal-medical-augmentation/
 ├─ main.ipynb # Main Jupyter Notebook for full pipeline execution
 ├─ 01_environment_setup.ipynb # Notebook to install and setup dependencies
@@ -17,7 +18,7 @@ multimodal-medical-augmentation/
 ├─ notebooks/ # Additional experimental notebooks (optional)
 ├─ .gitignore
 └─ README.md
-
+```
 
 ---
 
